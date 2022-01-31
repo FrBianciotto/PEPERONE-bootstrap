@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #fff3de;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.titulo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navImg {
+    height: 30px;
+}
+
+.nav-link {
+    transition: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.header {
+    background-color: #C3B091;
+    width: 100%;
+}
+
+.navbar-nav a {
+    color: #8e806a;
+}
+
+/* Footer */
+.bg-footer {
+    min-width: 100%;
+    background-color: #8e806a;
+}
+
+
+.redes div i {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.746);
+}
+
+/* Index */
+.nosotros {
+    margin: 20px;
+    display: block;
+    background-color: #C3B091;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #c3b091a6;
+}
+
+/* Productos */
+.main {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.tituloSecciones {
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 100px; */
+    text-shadow: 0px 0px 10px #8e806a;
+}
+
+.productos {
+
+    margin-bottom: 10px;
+}
+
+.productos img {
+    height: auto;
+    padding: 15px;
+}
+
+@media (max-width:430px) {
+    .productos img:hover {
+        transform: scale(1.2);
+        transition: all 1s 0s ease;
+    }
+}
+
+.comprarProductos{
+    background-color: #ffedcd;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px  #ffe0ab;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.comprarProductos iframe{
+    margin-top: 10px;
+    border:0;
+    width: 100%;
+    height: 300px;
+}
+.comprarProductos p i{
+    font-size: 50px;
+}
+
+/* PROMOCIONES */
+.combos{
+    margin: 20px;
+    background-color: #C3B091;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px  #ffe0ab;
+}
+.combos img{
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* RECETAS */
+.recetas{
+    padding: 10px;
+}
+.recetas img{
+    height: 400px;
+    width: auto;
+}
+
+@media (max-width:430px) {
+    .recetas img {
+       height: auto;
+    }
+}
+
+/* CONTACTO */
+.contacto{
+    background-color: #dbd0bd;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px  #e7dfd3;
+}
+
+.contacto button:hover{
+    background-color: rgba(0, 0, 0, 0.24);
+}
